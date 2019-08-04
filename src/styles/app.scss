@@ -1,0 +1,20 @@
+@import "./variables.scss";
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin: 1rem;
+}
+button {
+  padding: 5px 10px 5px 10px;
+  margin-right: 3px;
+  width: 60px;
+  cursor: pointer;
+}
+.title {
+  font-weight: 500;
+}
+.link {
+  color: $black;
+  cursor: pointer !important;
+}

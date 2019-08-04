@@ -1,0 +1,17 @@
+@import "../../styles/variables.scss";
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.row-column {
+  text-transform: capitalize;
+}
+
+.row {
+  border: none;
+  &:hover {
+    background: $primary-color;
+  }
+}
